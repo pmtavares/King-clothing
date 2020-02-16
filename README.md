@@ -10,6 +10,7 @@ This is a react shopping application  using Redux, Hooks and GraphQL
  * 2. React dom: npm install --save react-router-dom*
 
  * 3. Redux: npm install redux redux-logger react-redux*
+
  
  #### Back End
 
