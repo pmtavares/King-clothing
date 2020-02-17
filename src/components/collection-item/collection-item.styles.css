@@ -28,3 +28,18 @@ margin-bottom: 15px;
 .price {
 width: 10%;
 }
+.custom-button {
+    width: 80%;
+    opacity: 0.7;
+    position: absolute;
+    top: 430px;
+    display: none;
+  }
+.image:hover{
+    opacity: 0.85;
+}
+
+.custom-button:hover {
+    opacity: 0.8;
+    display: flex;
+}
