@@ -11,6 +11,8 @@ This is a react shopping application  using Redux, Hooks and GraphQL
 
  * 3. Redux: npm install redux redux-logger react-redux*
 
+ * 4. Reselect: npm install reselect
+
  
  #### Back End
 
