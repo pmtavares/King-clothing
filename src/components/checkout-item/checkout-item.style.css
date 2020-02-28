@@ -23,8 +23,16 @@
     min-width: 23%;
 
 }
+.arrow{
+    cursor: pointer;
+
+}
+.value{
+    margin: 0 10px
+}
 
 .quantity-item {
+    display: flex;
     padding-left: 20px;
 }
 
