@@ -13,6 +13,8 @@ This is a react shopping application  using Redux, Hooks and GraphQL
 
  * 4. Reselect: npm install reselect
 
+ * 5. npm install redux-persist
+
  
  #### Back End
 
