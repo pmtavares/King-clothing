@@ -11,6 +11,8 @@
     background-size: cover;
     background-position: center;
     margin-bottom: 5px;
+    display: flex;
+    justify-content: 'center'
 }
   
 .collection-footer {
@@ -45,9 +47,8 @@ width: 10%;
     cursor: pointer;
     display: flex;
     justify-content: center;
-    position: absolute;
-    top: 450px
- 
+    margin-top: 250px;
+    margin-left: 25%
 
   }
   .itemButton:hover {
