@@ -6,9 +6,18 @@ import {selectCollection} from '../../redux/shop/shop.selector'
 
 const CollectionPage = ({collection}) => {
     console.log(collection)
+    const {title, items} = collection
     return(
         <div className="collection-page">
-            <h2>CollectionPage</h2>
+            <h2 className="collection-page-title">{title}</h2>
+            <div className="collection-page-items">
+            {
+                items.map(item => (
+                    <CollectionItem key={item.id} item={item}/>
+                ))
+            }
+            </div>
+           
         </div>
     )
 }
