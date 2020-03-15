@@ -15,6 +15,8 @@ This is a react shopping application  using Redux, Hooks and GraphQL
 
  * 5. npm install redux-persist
 
+ * 6. React Stripe: npm i react-stripe-checkout
+
  
  #### Back End
 
