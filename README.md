@@ -27,6 +27,10 @@ This is a react shopping application  using Redux, Hooks and GraphQL
 
  * Check Version: heroku --version
  * heroku login
+
+
+ In the same folder as the git project, execute the commands below: 
+ 
  * build: heroku create king-clothbuild --buildpack https://github.com/mars/create-react-app-buildpack.git
  * git push heroku master
 
