@@ -17,6 +17,8 @@ This is a react shopping application  using Redux, Hooks and GraphQL
 
  * 6. React Stripe: npm i react-stripe-checkout
 
+ * 7. Styles: npm i styled-components
+
  
  #### Back End
 
@@ -34,4 +36,5 @@ This is a react shopping application  using Redux, Hooks and GraphQL
  * build: heroku create king-clothbuild --buildpack https://github.com/mars/create-react-app-buildpack.git
  * git push heroku master
 
+** App: https://king-clothbuild.herokuapp.com/
 
