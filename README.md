@@ -19,6 +19,8 @@ This is a react shopping application  using Redux, Hooks and GraphQL
 
  * 7. Styles: npm i styled-components
 
+ * 8. npm install --save redux-thunk
+
  
  #### Back End
 
