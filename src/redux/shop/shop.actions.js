@@ -1,7 +1,7 @@
 import ShopActionTypes from './shop.types'
 import {firestore, convertCollectionsSnapshotToMap} from '../../firebase/firebase.util';
 
-export const fecthCollectionStart = () => ({
+export const fetchCollectionsStart = () => ({
     type: ShopActionTypes.FETCH_COLLECTIONS_START,
 })
 
@@ -19,7 +19,7 @@ export const fecthCollectionFailure = (errorMessage) => ({
 export const fetchCollectionStartAsync = () => {
     return dispatch =>{
         const collectionRef = firestore.collection('collections');
-        dispatch(fecthCollectionStart());
+        dispatch(fetchCollectionsStart());
 
         collectionRef.get()
         .then(snapshot => {

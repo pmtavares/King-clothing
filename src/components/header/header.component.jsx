@@ -16,7 +16,10 @@ import './header.style.css';
 
 
 const Header = ({currentUser, hidden}) =>
-(
+{
+    console.log("Current user: "+ currentUser)
+    return(
+ 
     <HeaderContainer>
          <LogoContainer to="/">
             <img src={crown} className="crown-image" alt="Home page"/>
@@ -40,8 +43,8 @@ const Header = ({currentUser, hidden}) =>
          }
          
     </HeaderContainer>
-);
-
+    );
+}
 const mapStateToProps = createStructuredSelector({
     currentUser: selectCurrentUser,
     hidden: selectCartHidden
